@@ -2,6 +2,7 @@
   "name": "ai-web-scraper",
   "version": "1.0.0",
   "private": true,
+  "engines": { "node": ">=20.18.1" },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
