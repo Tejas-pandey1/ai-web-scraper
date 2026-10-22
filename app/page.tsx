@@ -43,7 +43,7 @@ export default function Home() {
   const [copied, setCopied] = useState(false);
 
   const prettyResult = useMemo(
-    () => result ? JSON.stringify(result.data, null, 2) : "",
+    () => result ? (JSON.stringify(result.data, null, 2) ?? "null") : "",
     [result],
   );
 
